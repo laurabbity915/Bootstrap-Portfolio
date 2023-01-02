@@ -5,18 +5,172 @@
 
 	<meta charset="UTF-8" lang="en"/>
 	<title>Laura Yuen Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css" />
     
 </head>
 <body>
-    <h1>Front-end Developer
-        <br>
-        UX/UI Tester
-        <br>
-        ILLustrator
-    </h1>
-
+    <header>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarExample01"
+            aria-controls="navbarExample01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          
+          <div class="collapse navbar-collapse " id="navbarExample01">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" aria-current="page" href="#about">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#work">Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.linkedin.com/in/laura-yuen-b24a2214a/">Resume</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar -->
     
+      <!-- Background image -->
+      <div
+        class="p-5 text-align-right "
+        style="
+        background-size: cover;
+        height:550px;
+          background-image: url('./image/header-hero-new-size.png');
 
-	
-</body>
-</html>
+        "
+      >
+        <div class="mask";>
+          <div class="d-flex justify-content-left align-items-center h-100">
+            <div class="text-white">
+              <h1 class="mb-3">Front-end Developer
+            <br>
+            UX/UI Tester
+            <br>
+            ILLustrator
+          </h1>
+              <!-- <h4 class="mb-3">Subheading</h4> -->
+              <!-- <a class="btn btn-outline-light btn-lg" href="#!" role="button"
+              >Call to action</a -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+  
+    <main class="page-wrapper">
+      <!-- about me -->
+      <section class="page-section" id="about">
+        <h2>About Me</h2>
+        <div class="page-divider"></div>
+        <div class="about-me-content">
+          <p>
+            Hi, I am Laura. I used be a UX/UI QA tester and I'm interested in website development.
+            <br>
+            It's my first time to study on front end development.
+            <br>
+            Now I am studying HTML and CSS.
+            <br>
+            Here's some works that I've done.
+          </p>
+        </div>
+      </section>
+  
+      <!-- portfolio container -->
+      <section class="page-section" id="work">
+        <h2>Work</h2>
+        <div class="page-divider"></div>
+        <div class="page-grid">
+          <a href="https://github.com/laurabbity915/challenge-module-1" class="project1-flex-item" target="_blank">
+            <div class="image-container">
+              <img src="./image/first-work.png" class="portfolio1 image" />
+              <div class="text-bottom-left">
+                
+                <h3>
+                  Challenge 1
+                  <p>Learning in best pratice of CSS and Git Push</p>
+                </h3>
+              </div>
+            </div>
+          </a>
+  
+          <a href="https://github.com/laurabbity915/My-Portfolio" class="project2-flex-item" target="_blank">
+            <div class="image-container">
+              <img src="./image/second-work.png" class="portfolio2 image" />
+              <div class="text-bottom-left">
+                <h3>
+                  Challenge 2
+                  <p>Build my own portfolio web and learning in CSS grid, </p>
+                  <p>flexbox and web responsive</p>
+                </h3>
+              </div>
+             
+            </div>
+          </a>
+          <a href="#" class="project3-flex-item">
+            <div class="image-container">
+              <img src="./images/02-portfolio-3.jpg" class="portfolio3 image" />
+              <div class="text-bottom-left">
+              <h3>
+                Coming soon
+                <p>discriptions</p>
+              </h3>
+             </div>
+            </div>
+          </a>
+  
+          <a href="#" class="project4-flex-item">
+            <div class="image-container">
+              <img src="./images/02-portfolio-3.jpg" class="portfolio4 image" />
+              <div class="text-bottom-left">
+                <h3>
+                  Coming soon
+                  <p>discriptions</p>
+                </h3>
+              </div>
+            </div>
+          </a>
+        </div>
+  
+      </section>
+  
+      <!-- contact -->
+      <section class="page-section contact" id="contact">
+        <h2>Contact Me</h2>
+        <div class="page-divider"></div>
+        <div class="content-me">
+          <ul>
+            <li>
+              <a href="mailto:laura_yuen915@outlook.com" target="_blank" class="contact-details"> laura_yuen915@outlook.com</a>
+            </li>
+            <li>
+              <a href="https://github.com/laurabbity915" target="_blank" class="contact-details"> Github</a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/laura-yuen-b24a2214a/" target="_blank" class="contact-details"> Linkedin</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </body>
+  <br>
+  <br>
+  </html>
