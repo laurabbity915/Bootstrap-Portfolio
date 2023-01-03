@@ -14,29 +14,29 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-/* 
-.name-block h1 {
-  color: white;
-  margin-left: 10rem;
-  padding-right: 10px;
-  height: 10em;
-  width: ;
-  background-image: url("../image/Laura-Yuen-portfolio-hero-banner.png");
-  background-size: cover;
-  background-position: center;
-} */
+
+/* Navigation CSS */
+.navbar{
+  float: right !important;
+  background-color: transparent !important;
+}
 
 .nav-link {
-  color: #1313bf !important;
+  color: white !important;
 }
+
+
 
 /* keep the name and the menu in the same row */
 .name-block {
   display: inline-block;
-  /* background-color: #92cccd; */
   height: fit-content;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.text-white h1{
+font-weight: bold;
 }
 
 .hero-banner {
@@ -45,30 +45,15 @@ body {
   background-image: url('../image/header-hero-new-size.png');
 }
 
-.cool-subtitle h2 {
-  background-color: #92cccd;
-  float: right;
-  margin-right: 2rem;
-}
 
-/* move the menu to the right */
-.topnav {
-  float: right;
-  margin-right: 3rem;
-}
-
-/* change the menu to horizontal */
-ul li {
-  display: inline;
-}
-
-/* remove the menu bullet point */
-ul {
-  list-style-type: none;
+.about-me-content h2{
+  font-weight: bold;
+  color: #1313BF !important;
 }
 
 .about-me-content p {
   font-size: medium;
+  color: #1313BF !important;
 }
 
 .menu {
@@ -90,18 +75,23 @@ ul {
 /* About Me CSS */
 .page-section h2 {
   box-sizing: border-box;
-  color: #445877;
+  color: #1313BF;
   font-size: 40px;
   width: 10rem;
   text-align: right;
 
 }
 
-.page-divider {
+
+.profile-image{
+  width: 200px ;
+}
+
+/* .page-divider {
   border-left: 3px solid #445877;
   margin-right: 1rem;
   margin-left: 1rem;
-}
+} */
 
 .page-grid {
   display: grid;
