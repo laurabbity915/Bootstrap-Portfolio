@@ -16,7 +16,7 @@ body {
 
 
 /* Navigation CSS */
-.navbar{
+.navbar {
   float: right !important;
   background-color: transparent !important;
 }
@@ -35,8 +35,8 @@ body {
   margin-bottom: 10px;
 }
 
-.text-white h1{
-font-weight: bold;
+.text-white h1 {
+  font-weight: bold;
 }
 
 .hero-banner {
@@ -47,7 +47,7 @@ font-weight: bold;
 
 
 /* About me CSS */
-.about-me-content h2{
+.about-me-content h2 {
   font-weight: bold;
   color: #1313BF !important;
 }
@@ -57,13 +57,13 @@ font-weight: bold;
   color: #1313BF !important;
 }
 
-.profile-image{
-  width: 200px ;
+.profile-image {
+  width: 200px;
 }
 
 
 /* Work CSS */
-.work-content h2{
+.work-content h2 {
   font-weight: bold;
   color: #1313BF !important;
 }
@@ -71,73 +71,16 @@ font-weight: bold;
 
 
 /* Contact Me CSS */
-.contact-me-content h2{
+.contact-me-content h2 {
   font-weight: bold;
   color: #1313BF !important;
 }
 
-.contact-me-content h6{
-  color: #1313BF !important;
+.card {
+  width: 18rem;
+  height: 30rem;
 }
 
-.page-grid img {
-  object-fit: cover;
-  width: 100%;
-  /* height: 15rem; */
-  height: 150px;
-}
-
-.image-container .portfolio1 {
-  height: 250px;
-  /* height: 25rem; */
-}
-
-.text-bottom-left {
-  position: absolute;
-  bottom: 8px;
-}
-
-.image-container {
-  position: relative;
-  text-align: left;
-  color: #31343d;
-}
-
-.image-container h3 {
-  background-color: #92cccd;
-  padding: 16px;
-}
-
-.image {
-  border: 3px solid #92cccd;
-}
-
-.content-me {
-  width: 80%;
-}
-
-.content-me ul {
-  display: flex;
-  justify-content: space-evenly;
-  height: 100%;
-  align-items: center;
-}
-
-.content-me ul li {
-  display: inline;
-}
-
-.contact-details {
-  color: #445877;
-  border-bottom: 3px solid #445877;
-  padding-bottom: 2px;
-  text-decoration: none;
-  padding: 6px;
-}
-
-
-
-p {
-  margin: 0;
-  font-size: small;
+.container {
+  margin-bottom: 100px;
 }
