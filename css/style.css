@@ -46,6 +46,7 @@ font-weight: bold;
 }
 
 
+/* About me CSS */
 .about-me-content h2{
   font-weight: bold;
   color: #1313BF !important;
@@ -56,83 +57,27 @@ font-weight: bold;
   color: #1313BF !important;
 }
 
-.menu {
-  color: #92cccd;
-  border-bottom: 3px solid #92cccd;
-  padding-bottom: 2px;
-  text-decoration: none;
-  padding: 6px;
-}
-
-.page-section {
-  display: flex;
-  flex-direction: row;
-  vertical-align: top;
-  margin-left: 3rem;
-  margin-top: 2rem;
-}
-
-/* About Me CSS */
-.page-section h2 {
-  box-sizing: border-box;
-  color: #1313BF;
-  font-size: 40px;
-  width: 10rem;
-  text-align: right;
-
-}
-
-
 .profile-image{
   width: 200px ;
 }
 
-/* .page-divider {
-  border-left: 3px solid #445877;
-  margin-right: 1rem;
-  margin-left: 1rem;
-} */
 
-.page-grid {
-  display: grid;
-  grid-gap: 1rem;
-  width: 80%;
-  grid-template-columns: repeat(2, 1fr);
-  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
-  grid-template-areas:
-    "topRow topRow"
-    "topRow topRow"
-    "left1 right1"
-    "left2 right2";
+/* Work CSS */
+.work-content h2{
+  font-weight: bold;
+  color: #1313BF !important;
 }
 
-@media (max-width: 600px) {
-  .page-grid {
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "topRow"
-      "topRow"
-      "left1"
-      "right1"
-      "left2"
-      "right2";
-  }
+
+
+/* Contact Me CSS */
+.contact-me-content h2{
+  font-weight: bold;
+  color: #1313BF !important;
 }
 
-.project1-flex-item {
-  grid-area: topRow;
-}
-
-.project2-flex-item {
-  grid-area: left1;
-}
-
-.project3-flex-item {
-  grid-area: right1;
-}
-
-.project4-flex-item {
-  grid-area: left2;
+.contact-me-content h6{
+  color: #1313BF !important;
 }
 
 .page-grid img {
@@ -192,15 +137,6 @@ font-weight: bold;
 
 
 
-/* h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    margin: 0;
-  }
-  */
 p {
   margin: 0;
   font-size: small;
